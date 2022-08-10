@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "sync-sql": "^1.0.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.1.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "pg": "^8.7.3"
+  }
+}

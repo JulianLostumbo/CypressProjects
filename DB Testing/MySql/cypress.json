@@ -1,0 +1,18 @@
+{
+    "env": {
+        "db": {
+          "host": "db4free.net",
+          "user": "admin",
+          "password": "password",
+          "database": "db_name"
+        },
+        "DB": {
+          "user": "myuser",
+          "host": "127.0.0.1",
+          "database": "pokemon",
+          "password": "pass",
+          "port": 32763
+      }
+      },
+      "defaultCommandTimeout": 120000
+}

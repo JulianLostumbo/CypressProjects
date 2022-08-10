@@ -1,0 +1,20 @@
+{
+  "name": "cy-dashboard",
+  "version": "1.0.0",
+  "description": "cypress with dashboard services",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:electron": "cypress run --browser electron",
+    "cy:dashboard": "cypress run --record --key 69c9e5ca-a0ad-4063-aa1c-12a2a1f6123c",
+    "start-jenkins-server": "java -jar jenkins.war --httpPort=8087 --enable-future-java"
+  },
+  "keywords": [
+    "cypress",
+    "dashboard"
+  ],
+  "author": "JLostumbo",
+  "license": "ISC"
+}
